@@ -1,0 +1,71 @@
+/* General styling for the register-page */
+.register-page {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+  }
+  
+  /* Styling for the form header */
+  .register-page h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  /* Styling for form items */
+  .register-page .ant-form-item {
+    margin-bottom: 20px;
+  }
+  
+  /* Styling for the input fields */
+  .register-page .ant-input {
+    height: 40px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  /* Styling for the submit button */
+  .register-page .btn {
+    width: 100px;
+    height: 40px;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  /* Flex container for the link and button */
+  .register-page .d-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  /* Styling for the link */
+  .register-page a {
+    color: #007bff;
+    text-decoration: none;
+    font-size: 14px;
+  }
+  
+  /* Add some hover effects */
+  .register-page a:hover {
+    text-decoration: underline;
+  }
+  
+  .register-page .btn-primary:hover {
+    background-color: #b30086;
+    border-color: #0056b3;
+  }
+
+  .hero{
+    background-color: #dd0202;
+    height: 100vh;
+    display: flex;
+  }
+  
